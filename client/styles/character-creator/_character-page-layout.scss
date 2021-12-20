@@ -1,0 +1,25 @@
+
+// PAGE LAYOUT
+// these styles control where the main components are positioned on the page
+
+.page-grid {
+  display: grid;
+  grid-template-areas: 
+    "character character palette palette";
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.character-background-image {
+  background-image: url('../../server/public/images/toro-background.png'),
+   linear-gradient(180deg, #E4F1F7 44.79%, #EFEDEA 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: bottom;
+  width: 100%;
+}

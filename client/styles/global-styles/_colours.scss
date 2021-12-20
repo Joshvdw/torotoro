@@ -1,0 +1,133 @@
+
+// COLOURS
+// here are the colour variables used across the whole site
+
+
+// MAIN COLOURS
+
+$dark-green: hsl(80, 100%, 18%);
+$green: rgb(102, 153, 51);
+$pale-green: hsl(72, 41%, 83%);
+
+$pale-blue: hsl(196, 54%, 93%);
+$medium-blue: hsl(196, 28%, 54%);
+
+$dark-brown: hsl(37, 47%, 28%);
+$brown: hsl(37, 33%, 46%);
+
+$white: hsl(0, 0%, 100%);
+$black: hsl(13, 24%, 7%);
+
+$light-grey: hsl(0, 0%, 94%);
+
+
+// SKIN COLOURS 
+
+$skin-0: #A26A46;
+$skin-1: #E6D0C1;
+$skin-2: #C9976A;
+$skin-3: #A26032;
+$skin-4: #804131;
+$skin-5: #B77B35;
+$skin-6: #EFC3BA;
+$skin-7: #60453A;
+$skin-8: #AC7769;
+$skin-9: #E8B896;
+$skin-10: #5C3A1F;
+$skin-11: #DC8E69;
+$skin-12: #E6A763;
+$skin-13: #F1C991;
+$skin-14: #754930;
+$skin-15: #D09A79;
+
+
+
+
+// GRADIENTS
+
+@mixin green-gradient {
+  background: rgb(45,90,0);
+  background: linear-gradient(0deg, rgba(45,90,0,1) 0%, rgba(102,153,51,1) 100%);
+}
+
+@mixin sky-gradient {
+  background: rgb(228,241,247);
+  background: linear-gradient(0deg, rgba(228,241,247,1) 0%, rgba(239,237,234,1) 100%);
+}
+
+
+
+// SHADOWS
+
+$shadow-1: 0px 2px 4px rgba(37, 37, 37, 0.1);
+$shadow-2: 0px 4px 8px rgba(37, 37, 37, 0.1);
+$shadow-3: 0px 8px 16px rgba(37, 37, 37, 0.1);
+$shadow-4: 0px 16px 24px rgba(37, 37, 37, 0.1);
+$shadow-5: 0px 24px 32px rgba(37, 37, 37, 0.1);
+
+
+// SKINTONE BACKGROUNDS
+
+.skintone-bg-0 {
+  background-color: $skin-0;
+}
+
+.skintone-bg-1 {
+  background-color: $skin-1;
+}
+
+.skintone-bg-2 {
+  background-color: $skin-2;
+}
+
+.skintone-bg-3 {
+  background-color: $skin-3;
+}
+
+.skintone-bg-4 {
+  background-color: $skin-4;
+}
+
+.skintone-bg-5 {
+  background-color: $skin-5;
+}
+
+.skintone-bg-6 {
+  background-color: $skin-6;
+}
+
+.skintone-bg-7 {
+  background-color: $skin-7;
+}
+
+.skintone-bg-8 {
+  background-color: $skin-8;
+}
+
+.skintone-bg-9 {
+  background-color: $skin-9;
+}
+
+.skintone-bg-10 {
+  background-color: $skin-10;
+}
+
+.skintone-bg-11 {
+  background-color: $skin-11;
+}
+
+.skintone-bg-12 {
+  background-color: $skin-12;
+}
+
+.skintone-bg-13 {
+  background-color: $skin-13;
+}
+
+.skintone-bg-14 {
+  background-color: $skin-14;
+}
+
+.skintone-bg-15 {
+  background-color: $skin-15;
+}

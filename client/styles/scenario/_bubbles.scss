@@ -1,0 +1,145 @@
+@import '../global-styles/colours';
+
+.bubble {
+  position: fixed;
+  font-size: 20px;
+  line-height: 24px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #fff;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+.bubble-kauri {
+  bottom: 42rem;
+  left: calc(50vw - 150px);
+}
+
+.bubble-aria {
+  bottom: 38rem;
+  left: calc(50vw - 70px);
+}
+
+.bubble-aria:before, .bubble-kaia:before {
+  border-left: 12px solid transparent;
+  border-right: 24px solid #fff;
+}
+
+.bubble-kaia:before {
+  left: 235px;
+}
+
+.bubble-aria:before {
+  left: 75px;
+}
+
+.bubble-kaia {
+  bottom: 12rem;
+  left: calc(50vw - 200px);
+}
+
+.bubble-sparrow {
+  bottom: 37rem;
+  left: calc(50vw - 20px);
+  font-style: italic;
+}
+
+.bubble-sparrow:before {
+  border-left: 12px solid transparent;
+  border-right: 24px solid #fff;
+  left: 75px;
+}
+
+.narrator-text {
+  bottom: 17rem;
+  left: calc(50vw - 200px);
+  position: fixed;
+  font-size: 24px;
+  line-height: 28px;
+  width: 400px;
+  background: $green;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.dialogue-kauri {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+
+.dialogue-aria {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    type 2s steps(40, end),
+    blink-effect .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes type {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-effect {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+
+.dialogue-kaia {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    type-frames 1.65s steps(40, end),
+    blinking .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes type-frames {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}

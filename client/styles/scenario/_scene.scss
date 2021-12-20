@@ -1,0 +1,26 @@
+@import '../global-styles/colours';
+
+.scene {
+  background-image: url('../../server/public/images/background.gif'), linear-gradient(180deg, #CEEAF7 44.58%, #EFEDEA 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 100vh;
+}
+
+.scenario-character-container {
+  position: absolute;
+  bottom: 43px;
+  left: -15px;
+  width: 350px;
+  height: 350px;
+}
+
+.scenario-character-container div {
+  width: auto;
+}
+
+
+.previous-btn {
+  margin-right: 10px;
+}

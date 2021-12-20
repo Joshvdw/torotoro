@@ -1,0 +1,22 @@
+$font-family-primary: 'Ubuntu', sans-serif;
+
+$font-family-title: 'Luckiest Guy', cursive;
+
+body {
+    font-family: $font-family-primary;
+  }
+
+h1 {
+  font-family: $font-family-title;
+  font-size: 3rem;
+  }
+
+  .nav-title {
+    font-family: $font-family-primary;
+    color: $dark-green;
+    font-size: 1.75rem;
+  }
+
+p {
+    color: $dark-green;
+  }

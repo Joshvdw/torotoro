@@ -1,0 +1,57 @@
+
+// CSS RESET
+// these files reset the browser default so that we don't get crazy unexpected things happening
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+   width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  position: relative;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}

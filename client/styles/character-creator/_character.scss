@@ -1,0 +1,54 @@
+// CHARACTER 
+// these are the styles we use to control the different pieces on the character creator page
+
+
+.character-container {
+  grid-area: character;
+  display: grid;
+  background-color: $pale-green;
+  border: 1.5vw solid $dark-brown;
+  box-shadow: $shadow-4;
+  border-radius: 4vw;
+}
+
+.features-container {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  width: 30vw;
+}
+
+.skin {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 0;
+}
+
+.hair {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 2;
+}
+
+.eyes {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+}
+
+.mouth {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+}
+
+.shirt {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 3;
+}
+
+.character-feature-image { 
+  width: 80%;  
+  margin: 10% 10% 0%;
+}

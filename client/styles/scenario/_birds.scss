@@ -1,0 +1,37 @@
+.bird {
+  object-fit: cover;
+  width: 23rem;
+}
+
+.bird.aria {
+  position: fixed;
+  bottom: 23.8em;
+  left: calc(50vw - 15px);
+}
+
+.bird.kauri {
+  position: fixed;
+  bottom: 27rem;
+  left: calc(50vw - 435px);
+  transform: scaleX(-1);
+  z-index: 1;
+}
+
+.bird.kaia {
+  position: fixed;
+  bottom: -45px;
+  left: 50vw;
+}
+
+.worm {
+  position: fixed;
+  bottom: 27rem;
+  left: calc(50vw - 287px);
+  z-index: 0;
+}
+
+.sparrow {
+  position: fixed;
+  bottom: 23rem;
+  left: calc(50vw - 20px);
+}

@@ -1,0 +1,27 @@
+gi# Node modules
+node_modules
+
+# Logs
+*.log
+
+# SQLite DBs
+*.sqlite3
+
+# Webpack bundle
+*bundle.js
+*bundle.js.map
+
+# Generated css
+server/public/styles.css
+server/public/styles.css.map
+
+# Jest coverage report
+coverage/*
+
+# Dotenv env settings
+.env
+
+# DS store
+.DS_Store
+
+server/public/static*
